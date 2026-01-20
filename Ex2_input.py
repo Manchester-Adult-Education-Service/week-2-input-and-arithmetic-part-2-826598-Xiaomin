@@ -42,6 +42,9 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
+name = input("What is your name? ")
+age_text = input("How old are you? ")
+print(f"Hello {name} ! You said you are {age_text} years old.")
 
 # -------------------------------------------
 # Task 2: Data Types and Conversion
@@ -66,7 +69,8 @@ print("\n-------------------------------------------\n"
 #    Hint: Use {age + 1} inside your f-string.
 
 # Write your code below:
-
+age = int(age_text)
+print(f"Next year, {name} will be {age +1} ")
 
 # -------------------------------------------
 # Task 3: Customising the Experience
@@ -90,6 +94,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+food = input("What is your favourite food? ")
+song = input("What is your favourite song? ")
+print(f"Thanks for sharing {name} , I like {food.capitalize()} as well! Also, {song.capitalize()} is a very popular song!")
 
 # -------------------------------------------
 # CHECKPOINT: GIT COMMIT
