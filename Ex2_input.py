@@ -42,6 +42,9 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
+name = input("What is your name? ")
+age_text = input("How old are you? ")
+print(f"Hello {name} ! You said you are {age_text} years old.")
 
 # -------------------------------------------
 # Task 2: Data Types and Conversion
@@ -66,7 +69,8 @@ print("\n-------------------------------------------\n"
 #    Hint: Use {age + 1} inside your f-string.
 
 # Write your code below:
-
+age = int(age_text)
+print(f"Next year, {name} will be {age +1} ")
 
 # -------------------------------------------
 # Task 3: Customising the Experience
@@ -90,6 +94,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+food = input("What is your favourite food? ")
+song = input("What is your favourite song? ")
+print(f"Thanks for sharing {name} , I like {food.capitalize()} as well! Also, {song.capitalize()} is a very popular song!")
 
 # -------------------------------------------
 # CHECKPOINT: GIT COMMIT
@@ -125,6 +132,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+age_1 = int(input("How old are you? "))
+print(f"You are at least {age_1 * 12} months old!")
+
 
 # Extension 2: Name Lengths
 # -------------------------------------------
@@ -138,6 +148,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+city = input("What is your favourite city? ")
+x = len(city)
+print(f" {city.capitalize()} has {x} letters in its name.")
 
 # Extension 3: The Area Calculator
 # -------------------------------------------
@@ -150,6 +163,11 @@ print("\n-------------------------------------------\n"
 # and print the total area.
 
 # Write your code below:
+
+width = int(input("What is the width of the rectangle? "))
+height = int(input("What is the height of the rectangle? "))
+proportion = width * height
+print(f"Total are of this rectangle is {proportion}.")
 
 
 # -------------------------------------------
@@ -179,6 +197,13 @@ print("\n-------------------------------------------\n"
 # Hint: To calculate a 10% tip, you can do: bill * 0.10
 
 # Write your code below:
+
+cost = int(input("What is the total cost of the bill? "))
+tip = float(input("What percentage would you like to tip? "))
+total = cost + cost * tip
+people_num =int(input("How many people are sharing? "))
+print(f"Each person should pay {total / people_num}.")
+
 
 
 # -------------------------------------------
