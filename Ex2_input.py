@@ -132,6 +132,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+age_1 = int(input("How old are you? "))
+print(f"You are at least {age_1 * 12} months old!")
+
 
 # Extension 2: Name Lengths
 # -------------------------------------------
@@ -145,6 +148,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+city = input("What is your favourite city? ")
+x = len(city)
+print(f" {city.capitalize()} has {x} letters in its name.")
 
 # Extension 3: The Area Calculator
 # -------------------------------------------
@@ -157,6 +163,11 @@ print("\n-------------------------------------------\n"
 # and print the total area.
 
 # Write your code below:
+
+width = int(input("What is the width of the rectangle? "))
+height = int(input("What is the height of the rectangle? "))
+proportion = width * height
+print(f"Total are of this rectangle is {proportion}.")
 
 
 # -------------------------------------------
