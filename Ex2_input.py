@@ -198,6 +198,13 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+cost = int(input("What is the total cost of the bill? "))
+tip = float(input("What percentage would you like to tip? "))
+total = cost + cost * tip
+people_num =int(input("How many people are sharing? "))
+print(f"Each person should pay {total / people_num}.")
+
+
 
 # -------------------------------------------
 # FINAL SUBMISSION
